@@ -6,7 +6,7 @@
 // @description:ru  Автопоказ/разворот скрытых комментариев на Ozon'e.
 // @description     Auto-show/expand hidden comments on Ozon.
 // @author          XX-J...
-// @homepage        https://github.com/XX-J/Show-comments-on-Ozon
+// @homepageURL     https://github.com/XX-J/Show-comments-on-Ozon
 // @updateURL       https://raw.githubusercontent.com/XX-J/Show-comments-on-Ozon/main/Show comments on Ozon.user.js
 // @downloadURL     https://raw.githubusercontent.com/XX-J/Show-comments-on-Ozon/main/Show comments on Ozon.user.js
 // @match           *://*.ozon.ru/*
