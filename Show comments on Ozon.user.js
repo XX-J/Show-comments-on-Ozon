@@ -1,8 +1,8 @@
-﻿
+
 // ==UserScript==
 // @name:ru         Показать комментарии на Ozon'e
 // @name            Show comments on Ozon
-// @version         1.1
+// @version         1.2
 // @description:ru  Автопоказ/разворот скрытых комментариев на Ozon'e.
 // @description     Auto-show/expand hidden comments on Ozon.
 // @author          XX-J...
@@ -15,7 +15,7 @@
 
 //   Свои отзывы в личном кабинете:
 let IntID = setInterval( () => {
-  let El = document.querySelector('[data-review-uuid] > div:nth-child(2) span + span');
+  let El = document.querySelector('[data-review-uuid] > div:nth-child(2) span + span, [data-answer-id] + div > button');
   if (El) El.click(); else clearInterval(IntID);
 }, 600);
 
